@@ -1,57 +1,59 @@
-# Simple Web Calculator
+# AgenticAI Lab
 
-A clean, public, browser-based calculator built with plain **HTML**, **CSS**, and **JavaScript**.
+A public portfolio repository for small Agentic AI experiments, browser tools, automation demos, and learning artifacts.
 
-This repository now contains a lightweight calculator that can be hosted publicly using GitHub Pages.
+This repository is designed as a **repo-of-repos**: one universal home for many small projects, instead of creating a separate GitHub repository for every experiment.
 
-## Features
+## Current Projects
 
-- Addition, subtraction, multiplication, and division
-- Decimal support
-- Clear and delete controls
-- Keyboard support
-- Responsive interface
-- No framework, no backend, no installation
+| Project | Description | Path |
+|---|---|---|
+| Simple Calculator | A clean browser-based calculator built with HTML, CSS, and JavaScript. | `projects/simple-calculator/` |
 
-## Project Structure
+## Recommended Structure
 
 ```text
 .
-├── index.html   # Calculator interface
-├── style.css    # Calculator styling
-├── script.js    # Calculator logic
-└── README.md    # Project documentation
+├── index.html
+├── README.md
+├── docs/
+└── projects/
+    └── simple-calculator/
+        ├── index.html
+        ├── style.css
+        └── script.js
 ```
 
-## Logic
+## Philosophy
 
-The calculator stores user input as an expression string.
+Small tools compound.
 
-- Number/operator buttons append values to the display.
-- `C` clears the display.
-- `DEL` removes the last character.
-- `=` evaluates the expression.
-- Invalid expressions return `Error`.
+A calculator may look basic, but it proves the workflow:
 
-## Keyboard Controls
+1. Design the logic
+2. Build the interface
+3. Commit to GitHub
+4. Publish with GitHub Pages
+5. Improve into a reusable product pattern
 
-- `0-9` for numbers
-- `+`, `-`, `*`, `/` for operations
-- `.` for decimals
-- `Enter` or `=` to calculate
-- `Backspace` to delete
-- `Escape` to clear
+That is how small experiments become systems.
 
-## GitHub Pages
+## Live Site
 
-After enabling GitHub Pages from the repository settings, the calculator should be available at:
+Once GitHub Pages is enabled, the hub should be available at:
 
 ```text
 https://eoluwumi.github.io/my-data-science-portfolio/
+```
+
+The calculator project should be available at:
+
+```text
+https://eoluwumi.github.io/my-data-science-portfolio/projects/simple-calculator/
 ```
 
 ## Author
 
 Built by Enoch Oluwumi.
 
-> Small calculator today. Operating system of destiny tomorrow. One button at a time.
+> Data never sleeps. Neither do useful systems.
